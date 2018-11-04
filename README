@@ -1,0 +1,8 @@
+Script1 - Can be run to create the specified directories and files in the current directory
+Script 2 - Can be run to create a third script that will delete everything in the current directory (including itself) and then prints the empty directory contents
+myprog1.cpp - Source code for myprog1
+Makefile - Make file to create myprog1 from myprog1.cpp when invoking make -- will delete created object files on its own
+myprog2.cpp - Source code for myprog2. Will need to be compiled manually.
+
+myprog1 and myprog2 are the same source code but with different compilation methods. The assignment specifications were unclear. I took them to mean that both programs 
+are supposed to use system calls as the means of generation the directories and files.
